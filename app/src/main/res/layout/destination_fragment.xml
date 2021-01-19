@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/set_destination_button"
+            layout="@layout/set_destination_button" />
+
+        <TextView
+            android:id="@+id/destination_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/app_margin"
+            android:fontFamily="@font/pacifico"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/latitude"
+            layout="@layout/text_field" />
+
+        <include
+            android:id="@+id/longitude"
+            layout="@layout/text_field" />
+
+        <include
+            android:id="@+id/confirmation_button"
+            layout="@layout/set_destination_button" />
+
+    </LinearLayout>
+</layout>

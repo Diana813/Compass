@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="distance_from_the_destination">Distance from the destination:</string>
+    <string name="direction_indicator">direction indicator</string>
+    <string name="north_indicator">North indicator</string>
+    <string name="set_destination">Set destination</string>
+    <string name="search_in_google">Search in Google</string>
+    <string name="set">Set</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="no_data_availabe">Couldn\'t get location data</string>
+    <string name="no_internet">No internet connection</string>
+</resources>
